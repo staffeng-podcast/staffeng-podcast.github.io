@@ -4,10 +4,7 @@ date: 2021-12-28T09:00:00-0600
 draft: false
 aliases:
   - /1687069/episodes/9781276-alex-kessinger-stitch-fix-and-david-noël-romas-stripe
-key_quote: "As you move up in the IC ladder, just make sure that you're looking at the humans in the system as well as the code and the tech and everything."
-key_quote: "The main value that I was bringing to the organization was that I was mapping sort of a lot of the technical requirements and a lot of the organizational requirements that we had into something that kind of worked together."
-key_quote: "I'm always looking for the friction, for the pain points. I'm looking for those people who aren't necessarily speaking up about it, but they're sort of getting crushed by tech debt or all those other things."
-key_quote: "There's a whole body of knowledge around things that are adjacent to our work... thinking about human relationships in terms of systems isn't necessarily the worst idea for sort of getting a head start."
+key_quote: "One of the things that I've learned from the show and that I've tried to take away and try to sort of model in my behavior is like, take a step back, make more space, let more people talk, listen a lot more and just be humble."
 ---
 
 This episode is a celebration of the journey we have been on as this podcast comes to a close. We have had such a great time bringing you these interviews and we are excited about a new chapter, taking the lessons we have learned forward into different spaces. It's been a lot of work putting this show together, but it has also been such a pleasure doing it. And, as we all know, nothing good lasts forever! So to close the circle in a sense, we decided to host a conversation between the two of us where we interview each other as we have with our guests in the past, talking about mentorship, resources, coding as a leader, and much more! We also get into some of our thoughts on continuous delivery, prioritizing work, our backgrounds in engineering, and how to handle disagreements.  As we enter new phases in our lives, we want to thank everyone for tuning in and supporting us and we hope to reconnect with you all in the future!  
