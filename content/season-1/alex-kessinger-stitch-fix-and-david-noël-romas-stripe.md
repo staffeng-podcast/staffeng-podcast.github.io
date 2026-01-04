@@ -3,7 +3,7 @@ title: "Alex Kessinger (Stitch Fix) and David Noël-Romas (Stripe)"
 date: 2021-12-28T09:00:00-0600
 draft: false
 aliases:
-  - /1687069/episodes/9781276-alex-kessinger-stitch-fix-and-david-noël-romas-stripe
+  - /1687069/episodes/9781276-alex-kessinger-stitch-fix-and-david-noel-romas-stripe
 key_quote: "One of the things that I've learned from the show and that I've tried to take away and try to sort of model in my behavior is like, take a step back, make more space, let more people talk, listen a lot more and just be humble."
 ---
 
