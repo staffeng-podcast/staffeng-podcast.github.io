@@ -1,0 +1,60 @@
+/* Custom styles for StaffEng Podcast */
+
+/* Section descriptions on index page */
+.section-description {
+    margin: 0.75rem 0 1.5rem 0;
+    line-height: 1.6;
+    color: var(--text-secondary, #6b7280);
+}
+
+.section-description p {
+    margin: 0.5em 0;
+}
+
+.subscribe-section {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color, #e5e7eb);
+}
+
+.subscribe-section p {
+    margin: 0.5rem 0;
+}
+
+.subscribe-section a {
+    text-decoration: none;
+    color: var(--link-color, #2563eb);
+}
+
+.subscribe-section a:hover {
+    text-decoration: underline;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    body:not(.dark-mode-off) .subscribe-section {
+        border-bottom-color: var(--border-color, #374151);
+    }
+}
+
+body.dark-mode-on .subscribe-section {
+    border-bottom-color: var(--border-color, #374151);
+}
+
+/* Theme overrides - migrated from submodule modifications */
+
+/* Remove fixed width from header title to allow full text display */
+header h1 a {
+  width: auto !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+}
+
+/* Add utility class for lists without decoration */
+ul.no-decoration {
+  padding-left: 0;
+}
+
+ul.no-decoration li {
+  list-style: none;
+}

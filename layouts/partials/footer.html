@@ -1,0 +1,20 @@
+<footer>
+    <div class="footer-content">
+        <div class="subscribe-section">
+            <p><strong>Subscribe to the podcast:</strong></p>
+            <p>
+                <a href="https://podcasts.apple.com/podcast/id1559261829">Apple Podcasts</a> &middot;
+                <a href="https://open.spotify.com/show/4GUCKSlaFqQiShJBOP4nEe">Spotify</a> &middot;
+                <a href="https://music.amazon.com/podcasts/a7ae1b89-3608-4e17-b7ac-412d5aa035c7">Amazon Music</a> &middot;
+                <a href="https://pca.st/twwspg8r">Pocket Casts</a> &middot;
+                <a href="https://overcast.fm/itunes1559261829">Overcast</a> &middot;
+                <a href="/follow">More platforms</a>
+            </p>
+        </div>
+        {{- with .Site.Copyright }}
+        <p>{{ . }}</p>
+        {{- else }}
+        <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+        {{- end }}
+    </div>
+</footer>

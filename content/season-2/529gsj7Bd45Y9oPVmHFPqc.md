@@ -1,0 +1,130 @@
+---
+title: "We're Back"
+date: 2026-01-04T00:36:52.340Z
+contentful_id: "529gsj7Bd45Y9oPVmHFPqc"
+key_quote: "This isn't a skill issue in the traditional sense. It's a *learning* issue. The gap between what these tools can do and what most engineers extract from them has never been wider. And that gap is growing faster than knowledge can spread."
+slug: "were-back"
+---
+
+After 3 years, we're coming out of retirement, because something fundamental broke open in the last few months—something that changes everything about how we work.
+
+## We Don't Know How to Learn This Yet
+
+AI coding tools promise a 10X—maybe 100X—productivity boost. But here's what we're seeing: most engineers don't know *how to learn* these tools. The old playbook—read the docs, practice, master—doesn't work when the tools are fundamentally stochastic and changing weekly. Even worse, there's nowhere to go for real instruction. Documentation tells you what features exist, not how to think differently about your work.
+
+The result? Engineers are applying outdated learning strategies to a new kind of challenge, and it's not working.
+
+> I've never felt this much behind as a programmer. The profession is being dramatically refactored as the bits contributed by the programmer are increasingly sparse and between. I have a sense that I could be 10X more powerful if I just properly string together what has become available over the last \~year... \- [@karpathy](http://x.com/karpathy/status/2004607146781278521)
+
+This isn't a skill issue in the traditional sense. It's a *learning* issue. The gap between what these tools can do and what most engineers extract from them has never been wider. And that gap is growing faster than knowledge can spread.
+
+## Authority and Opportunity
+
+If you're a staff engineer—or any senior engineer—your job is about judgment and impact at scale. But here's what happens when you fall behind:
+
+**You lose technical authority.** When junior engineers are shipping 10X faster than you because they've figured out prompting strategies you haven't, your seniority becomes a liability, not an asset. You can't mentor effectively in a paradigm you don't understand.
+
+**You miss the biggest productivity unlock of our careers.** This isn't just about writing code faster. As one practitioner put it:
+
+> The puzzle is still there. What's gone is the labor. I never enjoyed hitting keys, writing minimal repro cases with little insight, digging through debug logs, or trying to decipher some obscure AWS IAM permission error. That work wasn't the puzzle for me. It was just friction, laborious and frustrating. The thinking remains; the hitting of the keys and the frustration is what's been removed. \- [mitsuhiko](https://lobste.rs/~mitsuhiko) (creator of Flask)
+
+The puzzle—the interesting work—remains. But you need to learn how to unlock it with these new tools. AI doesn't just speed up coding; it eliminates friction across large parts of the job. Design review preparation. Documentation. Debugging. Infrastructure work. All of it.
+
+The engineers who figure this out aren't just writing code faster. They're operating in a different paradigm entirely. And the gap between them and everyone else compounds daily.
+
+## Twitter Isn't Enough
+
+You've seen the tweets. You know something is happening:
+
+> Correct. In the last thirty days, 100% of my contributions to Claude Code were written by Claude Code \- [@bcherny](https://x.com/bcherny/status/2004897269674639461)
+
+Impressive. Provocative. But what does it *mean*? How do you get from where you are to "100% of contributions written by AI"? What's the workflow? What failed along the way? What assumptions had to change?
+
+The tweets give you a sense that breakthrough practices exist. But they don't give you the depth to *learn from* those practices. You're left with surface-level awareness and no path to implementation.
+
+This is the gap we're trying to close.
+
+## Deep Conversations with Practitioners
+
+We're rebooting the Staff Engineer podcast with a specific focus: **practitioners using AI to deliver valuable outcomes with specific examples**.
+
+Not theorists. Not tool vendors. Not people speculating about AI's future. We want engineers, researchers, philosophers—anyone using AI to deliver real results—who can go deep on the details:
+
+* What prompts did you use?  
+* What worked and what failed?  
+* How did your workflow change?  
+* What did you have to unlearn?  
+* What patterns distinguish 100X practitioners from 10X practitioners?
+
+We're calling these details "the turpentine"—the practical, specific, often messy reality of how this actually works in practice.
+
+## The Future Isn't Evenly Distributed
+
+Right now, there are deep pockets of breakthrough AI usage everywhere. From engineers, to philosophers. Small teams moving at speeds large organizations can't match..
+
+These practices exist, but they're isolated. Knowledge isn't spreading because there's no systematic way to extract, compare, and translate insights across domains.
+
+We want to be AI journalists, not AI evangelists. Our job is to find these pockets of advanced practice, understand what makes them work, and identify patterns that transfer.
+
+## What We're Looking For
+
+**Practitioners over theorists.** We're not interested in abstract conversations about what AI *might* do. If you're using AI to deliver outcomes and have specific examples of what worked and what didn't, we want to talk.
+
+**Details over declarations.** "AI made me 10X more productive" is a headline. "I rewrote my entire workflow around X pattern, which failed until I realized Y, and now I'm shipping features in days that used to take weeks" is the conversation we want.
+
+**Diverse domains, unified question.** We're starting with staff engineers because that's our foundation—engineers expected to show great judgment at scale. But we'll talk to anyone whose work sheds light on our core question: **What does good engineering judgment look like when the tools are stochastic, the landscape changes monthly, and the bottleneck shifts from implementation to direction?**
+
+## Our Thesis
+
+A fundamental shift is happening in how we work. The engineers authoring this future—not just experiencing it—will have massive advantages. We choose authorship.
+
+But we don't know what that looks like yet. We don't have the playbook. That's what we're building.
+
+## How to Participate
+
+We're setting this up in two ways:
+
+### 1\. Join Our Listening Sessions
+
+Before we start recording episodes, we want to hear from you. We're organizing Zoom sessions to discuss:
+
+* What you're running into with AI in your work  
+* The problems you're facing  
+* The surprising wins  
+* The bureaucratic barriers  
+* The things you wish someone would talk about
+
+**\[GOOGLE FORM LINK HERE\]** \- Sign up to join a session.
+
+### 2\. Suggest Guests (Including Yourself)
+
+Know someone doing interesting work with AI? Are *you* doing interesting work with AI?
+
+We're looking for:
+
+* Practitioners (not people selling AI tools)  
+* People delivering outcomes, not just observing  
+* Specific examples of what worked and what didn't  
+* Willingness to go deep on the details
+
+**\[GOOGLE FORM LINK HERE\]** \- Same form, different section.
+
+## The Invitation
+
+The gap between the current state of the art and common knowledge has never been wider. Tools that seemed stable last month are obsolete this month. Cutting-edge practices are emerging and evolving faster than any individual can track.
+
+You can let this gap widen and watch your authority erode, or you can help us close it.
+
+We're choosing to close it together.
+
+Come talk to us. Tell us what you're seeing. Help us identify the patterns. Be part of figuring out what good engineering judgment looks like in this new paradigm.
+
+**Fill out the form: \[GOOGLE FORM LINK\]**
+
+**Subscribe to the podcast: \[STAFF ENG FEED LINK\]**
+
+**Follow along: \[SOCIAL LINKS\]**
+
+Let's figure this out.
+
+— Alex & David

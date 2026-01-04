@@ -1,0 +1,36 @@
+baseURL = '/' # Use relative URLs for local development
+languageCode = 'en-us'
+title = 'StaffEng Podcast'
+copyright = "Copyright Staff Eng Podcast. All rights reserved."
+theme = 'dario'
+mainSections = ['season-2', 'season-1']
+
+enableRobotsTXT = true
+summaryLength = 30
+
+[pagination]
+pagerSize = 10
+
+[params]
+  description = "Exploring engineering leadership, AI, and building impactful technology."
+  colorScheme = 'toggle' # 'toggle', 'light', 'dark', or 'system'
+
+  # Contentful integration
+  contentful_space_id = ""
+  contentful_access_token = ""
+
+  [params.author]
+    name = "StaffEng Podcast"
+    email = "voidfiles@gmail.com"
+    twitter = "@voidfiles"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = true
+    style = 'dracula'
+    tabWidth = 4

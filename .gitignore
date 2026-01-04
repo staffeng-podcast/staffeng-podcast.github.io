@@ -1,0 +1,12 @@
+public/
+resources/
+.hugo_build.lock
+.DS_Store
+*.swp
+*.swo
+*~
+.env
+node_modules/
+package-lock.json
+layouts.backup/
+assets.backup/
