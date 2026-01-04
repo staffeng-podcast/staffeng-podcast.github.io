@@ -33,8 +33,12 @@
   ],
   {{- end }}
   "items": [
-    {{- range $index, $element := $pages }}
-    {{- if $index }},{{ end }}
+    {{- $first := true }}
+    {{- range $pages }}
+    {{- /* Skip the follow page */ -}}
+    {{- if ne .RelPermalink "/follow/" }}
+    {{- if not $first }},{{ end }}
+    {{- $first = false }}
     {
       "id": {{ .Permalink | jsonify }},
       "url": {{ .Permalink | jsonify }},
@@ -57,6 +61,7 @@
       ]
       {{- end }}
     }
+    {{- end }}
     {{- end }}
   ]
 }
