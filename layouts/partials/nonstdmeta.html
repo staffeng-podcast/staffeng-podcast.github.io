@@ -1,1 +1,12 @@
-<link type="application/rss+xml" rel="alternate" title="StaffEng" href="https://feeds.buzzsprout.com/1687069.rss">
+{{- /* Podcast RSS feed from Buzzsprout */ -}}
+<link type="application/rss+xml" rel="alternate" title="StaffEng Podcast Audio Feed" href="https://feeds.buzzsprout.com/1687069.rss">
+
+{{- /* Blog RSS feed for all posts */ -}}
+{{ with .OutputFormats.Get "rss" -}}
+<link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }} - RSS Feed" href="{{ .Permalink }}">
+{{- end }}
+
+{{- /* JSON feed for all posts */ -}}
+{{ with .OutputFormats.Get "json" -}}
+<link rel="alternate" type="application/json" title="{{ $.Site.Title }} - JSON Feed" href="{{ .Permalink }}">
+{{- end }}

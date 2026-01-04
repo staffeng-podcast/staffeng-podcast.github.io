@@ -1,0 +1,62 @@
+{{- $pctx := . -}}
+{{- $pages := slice -}}
+{{- if .IsHome -}}
+  {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections -}}
+{{- else -}}
+  {{- $pages = .Pages -}}
+{{- end -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+  {{- $pages = $pages | first $limit -}}
+{{- end -}}
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": {{ .Site.Title | jsonify }},
+  "home_page_url": {{ .Site.BaseURL | jsonify }},
+  "feed_url": {{ .Permalink | jsonify }},
+  {{- with .Site.Params.description }}
+  "description": {{ . | jsonify }},
+  {{- end }}
+  {{- with .Site.Params.author }}
+  "authors": [
+    {
+      {{- with .name }}
+      "name": {{ . | jsonify }}{{ if or $.Site.Params.author.email $.Site.Params.author.twitter }},{{ end }}
+      {{- end }}
+      {{- with .email }}
+      "url": {{ printf "mailto:%s" . | jsonify }}{{ if $.Site.Params.author.twitter }},{{ end }}
+      {{- end }}
+      {{- with .twitter }}
+      "avatar": {{ printf "https://twitter.com/%s" (strings.TrimPrefix "@" .) | jsonify }}
+      {{- end }}
+    }
+  ],
+  {{- end }}
+  "items": [
+    {{- range $index, $element := $pages }}
+    {{- if $index }},{{ end }}
+    {
+      "id": {{ .Permalink | jsonify }},
+      "url": {{ .Permalink | jsonify }},
+      "title": {{ .Title | jsonify }},
+      {{- with .Params.key_quote }}
+      "summary": {{ . | jsonify }},
+      {{- end }}
+      "content_html": {{ .Content | jsonify }},
+      "date_published": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }}
+      {{- with .Lastmod }},
+      "date_modified": {{ .Format "2006-01-02T15:04:05Z07:00" | jsonify }}
+      {{- end }}
+      {{- with $.Site.Params.author }},
+      "authors": [
+        {
+          {{- with .name }}
+          "name": {{ . | jsonify }}
+          {{- end }}
+        }
+      ]
+      {{- end }}
+    }
+    {{- end }}
+  ]
+}
