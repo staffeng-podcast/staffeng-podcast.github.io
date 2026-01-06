@@ -25,6 +25,8 @@ Today we are joined by the inspiring Jam Leomi, who is currently the Lead Securi
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that set staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romos and I'm joined joined by my co host, Alex Kessinger. We're both staff engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: I'd be delighted to. Jam Leomi is a lead security Engineer@Honeycomb IO. Before that, they worked in tech for more than 10 years in both ops and security roles. I always relish the opportunity to talk to security folks. So let's get right into the interview.

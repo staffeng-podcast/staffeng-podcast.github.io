@@ -20,6 +20,8 @@ Credit Karma is a company that helps people understand their credit. Today’s g
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that sets staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romas and I'm joined by my co host, Alex Kessinger. We're both staff plus engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Yeah, today's guest is Mason Jones. For the last 25 years, he's been working for mostly early stage startups around San Francisco. For the last five years he's been at Credit Karma. He's had a wide variety of roles, from being the first engineer to a chief architect and a VP of engineering. It's always awesome to talk with someone who's had a wide variety of roles. So let's jump in.

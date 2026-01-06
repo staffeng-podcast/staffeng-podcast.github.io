@@ -32,6 +32,8 @@ Will Larson is the CTO of Calm and has worked at Stripe, Uber, and Digg. He is a
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that set staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romos and I'm joined by my co host, Alex Kessinger. We're both staff plus engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Yeah, today's guest is Will Larson. Will is currently CTO at Calm and previously worked at Stripe, Uber and Digg. Most important for this podcast, he's also an author. He's written two books, including a book on staff engineering, which was the inspiration for this podcast. Our conversation takes us many places. I think it's best to get into it and let you all hear it for yourselves. Before we get into the interview though, folks should know that our conversation briefly talks about suicide. Folks, please take care of yourselves. Okay, so I want to dive right into this. I want to take you back to a blog post that you wrote a while back. I think it might have actually been the first blog post that I read of yours. It's the Dig V4, a launch born of optimism. In that post, you sort of. You talk frankly about a kind of bumpy launch in your role in it. I'm sort of curious what led you to write that blog post.

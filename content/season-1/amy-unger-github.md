@@ -23,6 +23,8 @@ Amy Unger, our guest on today’s show, is passionate about providing a high-qua
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that sets staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romis and I'm joined by my co host, Alex Kessinger. We're both staff plus engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Yeah, Amy Unger is an engineer at GitHub, previously of Heroku as well. Amy works on a dizzying array of things in a given week. It was fun getting to hear her approach and I think you all enjoy it as well. Let's get into it.

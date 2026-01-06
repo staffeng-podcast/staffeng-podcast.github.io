@@ -20,6 +20,8 @@ Moving from an architect role to a product-oriented one might seem like a big le
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that set staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romos and I'm joined by my co host, Alex Kessinger. We're both staffplus engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Sure. Today's guest is Ashby Winch. Ashby, until recently was an architect and the most senior technical representative at a large logistics operation in the uk. Recently they transitioned into a product oriented role. I had a blast talking with Ashby, so let's get into it.

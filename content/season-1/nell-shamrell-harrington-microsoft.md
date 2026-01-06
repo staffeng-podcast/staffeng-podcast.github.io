@@ -24,6 +24,8 @@ Today’s guest is a principal software engineer at Microsoft who works at the i
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the staffenge podcast where we interview software engineers who have progressed beyond the career level, into staff levels and beyond. We're interested in the areas of work that set staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Nguylromis and I'm joined by by my co host Alex Kessinger. We're both staff plus engineers who've been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Totally. Today's guest is Nell Shamrill Harrington. Nell is a principal software engineer at Microsoft and Microsoft's representative on the Rust Foundation's Board of Directors. It was a treat to talk with Nell about all their roles and I think you will appreciate it as well. Let's get into it.

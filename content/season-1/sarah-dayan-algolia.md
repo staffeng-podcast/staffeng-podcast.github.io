@@ -22,6 +22,8 @@ A promotion might be a climb up the ladder but, in actual fact, it’s a step in
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that set staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romis and I'm joined by my co host Alex Kessinger. We're both staff plus engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Absolutely. I'm stoked about this interview. Sarah Dion is a staff plus engineer at Algolia, a search as a service platform where she works in the Developer Experience organization. This is a great opportunity to learn more about staff + engineering and how that works in a Developer Experience team. I learned a lot from this conversation and I hope you do too. Let's take a listen.

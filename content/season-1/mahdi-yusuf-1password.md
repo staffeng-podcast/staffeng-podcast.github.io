@@ -23,6 +23,8 @@ Today’s guest is Mahdi Yusuf, Tech Lead for the Server Architecture Team at 1P
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that set staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romos and I'm joined joined by my co host, Alex Kessinger. We're both staff plus engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Absolutely. Madi Yousef is a senior staff engineer at 1Password. He's worked at a number of roles in tech, including cto. Our conversation covers a lot of ground, so let's get into it.
