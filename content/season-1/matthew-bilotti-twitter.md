@@ -19,6 +19,8 @@ On today’s episode of StaffEng, we speak with the formidable Matthew Bilotti w
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that set staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Aromas and I'm joined by my co host Alex Kessinger. We're both staff engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Yeah, this was an awesome interview with Matthew Bellotti who is a senior staff software engineer at Twitter where he has worked for over 10 years. One thing that came across in this interview was how much Matt cares about mentoring, which for me is always a challenge. It's great to hear how others approach it. So let's get into it.

@@ -23,6 +23,8 @@ Today’s guest is Josh Kaderlan, Staff Software Engineer at Lob, a direct mail 
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that sets staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romas and I'm joined by my co host, Alex Kessinger. We're both staff plus engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest. For sure.
 
 Alex: Today's guest is Josh Katerlin. Josh is a staff software engineer at lob. You know, there are so many different paths to staff engineer and Josh is no different. Starting in qva, he eventually moved into development and is now staff. This is a great conversation, so let's get into it.

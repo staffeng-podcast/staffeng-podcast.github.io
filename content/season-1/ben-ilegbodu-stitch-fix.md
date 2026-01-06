@@ -20,6 +20,8 @@ Today we talk to Ben Ilegbodu, Principal Frontend Engineer at Stitch Fix, about 
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that set staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romos and I'm joined joined by my co host Alex Kessinger. We're both staffplus engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Yeah, Ben Alegbadu is a principal engineer at Stitch Fix, focusing on the front end platform. Ben has been working on the front end for more than 15 years and it shows, especially when we talk about encouraging alignment among other engineers. This is a great episode, so let's get into it.

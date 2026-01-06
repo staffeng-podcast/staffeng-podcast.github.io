@@ -23,6 +23,8 @@ Often the biggest impacts a Staff Engineer can make in their organization are no
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level, into staff levels and beyond. We're interested in the areas of work that sets staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Ramos and I'm joined by my co host, Alex Kessinger. We're both staff engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Yeah. Today's guest is James Cowling. James is currently the CTO and founder of Convex. Previously he was a senior principal engineer at Dropbox for almost a decade. We talk a lot about the unique impact that senior ICs can make. Often the biggest impact we make isn't technical, it's our impact on the team. And when that part is done well, our teams make an outsized impact. It was a real treat to hear how James works with teams and I think you all are going to enjoy it as well. So let's get into it.

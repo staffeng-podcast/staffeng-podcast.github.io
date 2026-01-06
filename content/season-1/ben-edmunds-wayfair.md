@@ -20,6 +20,8 @@ During today’s conversation, we speak with Ben Edmunds, Senior Staff Engineer 
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that sets staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romas and I'm joined by my co host, Alex Kessinger. We're both staff engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Sure. Today's guest is Ben Edmonds. Ben is a senior staff engineer at Wayfair where he works on the platform team. I appreciated Ben's take on influence over authority. So let's get into it.

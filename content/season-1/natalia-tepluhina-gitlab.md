@@ -21,6 +21,8 @@ As today’s guest, Natalia Tepluhina walks us through her professional history 
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that set staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romas and I'm joined by my co host, Alex Kessinger. Alex, please tell us a bit about today's guest.
 
 Alex: Yeah, this is a great interview with Natalia Teplohina. She works at GitLab as a staff engineer on the front end. Fun fact. She was also the first front end staff engineer at GitLab. In addition to her work at GitLab, she's also a core committer on the Vue JS project. This interview is a lot of fun to do and I think you all enjoy listening to it, so let's get into it.

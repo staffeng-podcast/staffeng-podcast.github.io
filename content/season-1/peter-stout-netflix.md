@@ -22,6 +22,8 @@ The structures of an organization can often be self-reinforcing, and in a changi
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that sets staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romas and I'm joined by my co host Alex Kessinger. We're both staff plus engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Yeah, Today's guest is Peter Stout. Peter is a Technical Director at Netflix where he has a cross functional role at the juncture of Business and technology. He started out as a chemist but was drawn to the programming part of his work. So much so he eventually left the chemistry behind and started working as an engineer full time. This was an awesome conversation. I'm stoked for everyone to hear it. Let's get into it.

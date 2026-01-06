@@ -15,6 +15,8 @@ Staff engineers may not get much time to code anymore, but this does not mean pr
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that sets staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romas and I'm joined by my co host, Alex Kessinger. We're both staff plus engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Sure. Today's guest is Bryan Berg. Bryan is a staff engineer at Stripe working on the Traffic team. He's worked for Stripe for over seven years now. Before that he was a founder and CTO of App.net where I had the opportunity to work with him. I've learned a lot from Bryan, so let's get into it.

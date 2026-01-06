@@ -21,6 +21,8 @@ Today we have a great guest to talk about his transition to, and current role as
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that set staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romos and I'm joined joined by my co host Alex Kessinger. We're both staff engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Our guest today is Mike McQuaid. He is a staff engineer at GitHub. Additionally, he's a project leader for the Homebrew project which is a package manager for Max. This interview is a lot of fun.

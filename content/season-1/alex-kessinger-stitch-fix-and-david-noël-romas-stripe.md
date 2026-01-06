@@ -32,6 +32,8 @@ This episode is a celebration of the journey we have been on as this podcast com
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast. Today's episode is a special one. If you've been following along, you know that this is the show where we interview software engineers who've progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that set staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romas and I'm joined by my co host, Alex Gestner. So why is today's episode special? Today's episode will be the last episode of Staff Inch. Alex, why don't you tell us more about why that is?
 
 Alex: Sure. Well, I think off the top, nothing lasts forever, especially nothing good. And I think that, you know, I feel like we did some good interviews, but like, you know, I think doing this show takes a lot of work. And just if anyone at home is curious, David does far more work than I do to make this work. And it was a lot of work for myself. And so I'm really proud of what we've done and I'm proud of the interviews that we did, but I think we can sort of let this go and let it live on its own. I don't know. How about you? What do you. Why do you think this is the last episode?

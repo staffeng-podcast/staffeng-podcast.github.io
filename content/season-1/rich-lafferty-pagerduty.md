@@ -23,6 +23,8 @@ Oscillating between the roles of individual contributor and management has been 
 
 ## Transcript
 
+*Note: This transcript was generated using automated transcription and may contain errors.*
+
 David: Welcome to the Staff Eng podcast where we interview software engineers who have progressed beyond the career level into staff levels and beyond. We're interested in the areas of work that set staff plus level engineers apart from other individual contributors. Things like setting technical direction, mentorship and sponsorship, providing engineering perspective to the org, etc. My name is David Noel Romis and I'm joined by my co host, Alex Kessinger. We're both staff engineers who have been working in software for over a decade. Alex, please tell us a bit about today's guest.
 
 Alex: Yeah, Rich Lafferty is a staff site reliability engineer at Pagerduty, where he builds platforms in the clouds to make Pagerduty reliable and his development teams happy. He calls Toronto home with his wife and two tortoiseshell cats. In his copious spare time, he can be found enjoying craft beer, staring at a wall, or playing bass in one of Pagerduty's two office bands.
