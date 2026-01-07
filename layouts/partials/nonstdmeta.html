@@ -10,3 +10,6 @@
 {{ with .OutputFormats.Get "json" -}}
 <link rel="alternate" type="application/json" title="{{ $.Site.Title }} - JSON Feed" href="{{ .Permalink }}">
 {{- end }}
+
+{{- /* Cloudflare Web Analytics */ -}}
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0e17ec01a9da4dc198313eb3769c8e4c"}'></script><!-- End Cloudflare Web Analytics -->
