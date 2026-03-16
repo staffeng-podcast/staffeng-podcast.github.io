@@ -11,65 +11,25 @@ key_quote: "I personally have not opened an IDE since the end of November. And t
 
 <div id="buzzsprout-player-18827390"></div><script src="https://www.buzzsprout.com/1687069/episodes/18827390-i-haven-t-opened-an-ide-since-november-will-maier.js?container_id=buzzsprout-player-18827390&player=small" type="text/javascript" charset="utf-8"></script>
 
-Will Maier leads growth engineering at Stripe and has been one of the most active internal voices on AI adoption. In this episode, he walks through his personal aha moment over the 2024 holiday break, the projects it unlocked, and what he's learned trying to move a large organization through a genuinely disorienting shift.
+Will Maier leads growth engineering at Stripe, where he's spent the last five years working across nearly every surface of the product. His background isn't CS — it's the history of science — and he's been through enough industry shifts (racking servers, the cloud transition, DevOps) to know when something really big is happening.
 
-## The Aha Moment
+Find us now also on YouTube: @StaffEngPodcoast
 
-Will's inflection point was the holidays after Claude Opus 4/5 launched in late November. Freed from the usual December crunch, he spent the break hacking on something he'd always wanted to build: a Lua distribution with a solid standard library for systems programming, built on top of [Cosmopolitan libc](https://github.com/jart/cosmopolitan) by Justine Tunney.
+In this season premiere of StaffEng, Will joins Alex and David to talk about what changed for him after November 2025, why he spent the holidays building a Lua distribution from his phone while doing laundry, and how he thinks about the organizational dynamics of AI adoption inside a large engineering org.
 
-The kicker: Will doesn't really speak C. The codebase is millions of lines. None of that stopped him. Within a few days he had the libc patched and the distribution building — work he never would have taken on before. The combination of lowered floor (what he needed to contribute) and raised ceiling (what he felt capable of attempting) was new.
+Topics covered:
 
-> "I was sitting in the laundry on my phone, having Claude Web do stuff to this system, hanging out with my kid. The fact that this was during the holidays and that I could be in the holidays and also doing pretty massive hacks at the same time felt new in my career."
-
-The project — [whilp/cosmic](https://github.com/whilp/cosmic) — drops a single 5MB binary into any environment (Claude Code web's gVisor sandbox, his Mac, Fly.io) and exposes the full breadth of a good libc to Lua, teaching Claude how to use it through help flags.
-
-## Bringing It Back to Stripe
-
-January became a deliberate experiment: hack outside of Stripe first to figure out how weird things could get, then incrementally port the learnings back. The reasoning:
-
-1. Tools were changing at least daily — too early to bake anything in
-2. Discovery phase, not deployment phase — big coordinated efforts didn't make sense yet
-3. Personal intuition needed building before it could transfer
-
-The most impactful internal artifact wasn't a big initiative. It was a single engineer who built an **incident report critic** — a ~100-line skill that takes a draft incident report and tears it apart, identifying gaps in root cause analysis, timeline clarity, and remediations. The key insight: pulling that work *out* of "AI writes the report" and into "AI critiques your report" preserves the learning while improving the output.
-
-## The Psychology of Adoption
-
-Will created a thread inside Stripe after noticing something: engineers were making mistakes with AI tools and feeling shame about it. A PR built on a hallucinated fact about a system the team didn't own. Wrist-slaps for violating security guardrails that weren't fully documented yet. The feeling of *I should have caught that*.
-
-His read: the shame was slowing adoption at exactly the wrong moment.
-
-> "I really believe it's good to feel bad. When I feel bad about stuff, it's me reminding myself that I want it to be better. But we needed to surface these feelings and normalize them — both because the mistakes are okay, and because we need to learn from them."
-
-The thread surfaced stories from TLs and engineers across levels. A few weeks later, he observed the shame had largely subsided — replaced by broader adoption and a new set of bottlenecks: how do we review AI-generated code? How do we actually verify? How do we integrate and deliver at scale?
-
-## The Manager-as-Delegator Frame
-
-DNR surfaced a frame that resonated: working with LLMs is like being a new manager. You have to learn to delegate to an entity you don't fully trust yet, accept that some delegations won't work, and resist the urge to just do everything yourself.
-
-Will extended the analogy: he's not seeing *enough* mistakes from his teams. The engineers who are closest to the frontier are making the productive errors — PRs built on hallucinations, broken agentic loops, weird edge cases. Engineers who haven't found their way to the frontier yet aren't making those mistakes, which means they're also not finding the value.
-
-His current question: how do you manufacture the right conditions for people to push to the edge, make recoverable mistakes, and build the intuition that compounds?
-
-## Measuring the Unmeasurable
-
-Will built and shared an internal dashboard showing token usage across Stripe — not because token count is the right metric, but because the distribution revealed something useful. Above a certain threshold, you simply can't get there by tabbing through autocomplete. Something qualitatively different is happening. And making that visible gave people a reason to reach out to whoever was in the upper percentiles and ask: *what are you doing?*
-
-> "The coolest thing I heard from folks last week was 'I just had no idea that was possible. I didn't know you could consume that many tokens.' And folks started to reach out and say — you're number three on whatever, what are you doing?"
-
-## The Bigger Frame
-
-Will has been through the rack-and-stack-to-cloud transition, the DevOps wave, CI/CD. His read on this moment: bigger and faster than any of those, with the same structure — someone's specialized skill has a shelf life, and what's changing increases the total amount of work available rather than reducing it.
-
-> "There's not less software today because of object-oriented programming. I feel really clear that there's going to be a lot more software this year than in any alternative. And we are so behind where people need computers to be."
-
-The analogy he reached for wasn't DevOps tooling but **DevOps culture** — the plural pillars (automation, measurement, shared ownership, blameless postmortems) that made the shift positive rather than just disruptive. His worry: we haven't built those cultural pillars into the current wave yet.
+* Why Will hasn't opened an IDE since November — and what replaced it
+* The psychology of AI adoption: shame, hallucinated PRs, and "AI vegans"
+* Skills as the new packages: how improvised markdown files are changing how teams share leverage
+* Why measuring token usage (the wrong metric) surfaced the right insights
+* The case for making the incident report critic, not the incident report writer
+* What the cloud and DevOps transitions teach us about where AI is headed
 
 ## Links
 
 - [Cosmopolitan libc (jart/cosmopolitan)](https://github.com/jart/cosmopolitan)
 - [whilp/cosmic — Will's Lua distribution](https://github.com/whilp/cosmic)
-- [Will Maier on X](https://x.com/whilp)
 
 ## Transcript
 
