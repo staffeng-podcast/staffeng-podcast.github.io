@@ -13,7 +13,7 @@ key_quote: "I personally have not opened an IDE since the end of November. And t
 
 Will Maier leads growth engineering at Stripe, where he's spent the last five years working across nearly every surface of the product. His background isn't CS — it's the history of science — and he's been through enough industry shifts (racking servers, the cloud transition, DevOps) to know when something really big is happening.
 
-Find us now also on YouTube: @StaffEngPodcoast
+Find us now also on YouTube: [@StaffEngPodcoast](https://www.youtube.com/@StaffEngPodcast)
 
 In this season premiere of StaffEng, Will joins Alex and David to talk about what changed for him after November 2025, why he spent the holidays building a Lua distribution from his phone while doing laundry, and how he thinks about the organizational dynamics of AI adoption inside a large engineering org.
 
