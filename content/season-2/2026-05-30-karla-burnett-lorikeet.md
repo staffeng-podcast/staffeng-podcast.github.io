@@ -16,74 +16,13 @@ Karla Burnett joins Alex and David from Sydney, where she's been building securi
 
 **Guest:** Karla Burnett — Staff Engineer at Lorikeet ([@tetrakazi](https://x.com/tetrakazi))
 
-## The Aha Moment
-
-Karla's trajectory from "mildly impressed" to genuinely floored ran through three stages. First: watching LLMs actually produce useful customer service responses when given the right orchestration — something that hadn't clicked before. Second: Cursor's multi-paragraph code completion saving her real keystrokes. Third, and most radical: using frontier models for full security audits, watching them surface vulnerabilities she never would have had time to find manually, and then watching them fix those vulnerabilities automatically.
-
-## The Velocity Czar
-
-As an AI-focused company, Lorikeet moved quickly from "feel free to use Cursor" to "this fundamentally changes how we work." The turning point around December–February brought real anxiety — engineers asking whether they still had jobs — which leadership addressed head-on.
-
-One pattern that worked: appointing a **velocity czar**, a person whose dedicated job is to track the latest AI tooling developments, vet them, and push what's working to the rest of the company. In a small org, most of the diffusion happens socially (a dedicated Slack channel), but it also flows technically — updates to `CLAUDE.md`, skills files, and agents config get tagged and announced when practices change.
-
-## Conductor vs. Superset
-
-Karla's daily driver is [Conductor](https://conductor.build), not raw Claude Code. The key differentiator: a sidebar showing all open worktrees, what each is doing, and which ones need attention — a lightweight orchestration layer for parallel long-running tasks.
-
-Her parallel work style: kick off a security audit across the entire codebase in one worktree, run fixes for a different class of problem in several others, and let the sidebar surface what needs a human decision. [Superset](https://supersetapp.com) is a close competitor with a more terminal-forward interface; Conductor leans chat-first. Neither is perfect — Conductor marks PRs as "done" the moment they merge, which she finds premature given that deployment and monitoring are still live work.
-
-## Testing a Non-Deterministic Product
-
-Lorikeet's product is inherently non-deterministic (LLM-generated customer service responses), which makes testing hard. Their approach:
-
-- **Eval tests** on merge to main — a small suite that actually calls the API, checks that a demo flow (e.g., booking an appointment) still succeeds end to end. Expensive, but it catches the most egregious regressions.
-- **Simulations** — LLMs talking to LLMs, where a user persona tries to accomplish a task and a frontier model evaluates whether the outcome met the customer's goals. Useful for testing guardrails without trying to force determinism onto a system that never will be.
-
-The Coach product inside Lorikeet lets her diagnose ticket failures iteratively: describe the bad outcome, get a root cause, propose a fix, rerun simulations, and add new test cases — all in a loop.
-
-## MCP Security: The Biggest Risk Nobody's Talking About
-
-Karla's clearest concern for engineering organizations right now: the MCP server model silently connects previously isolated sensitive systems (secret managers, production databases, Slack) in a way that's easy to overlook.
-
-Even a well-intentioned agent can accidentally route secrets through Slack or turn off row-level security because it makes the immediate task easier. The permission prompts that Claude Code generates get clicked through reflexively. Conductor's `--dangerously-allow-all` mode turns them off entirely.
-
-Her mental model: treat the agent like a very enthusiastic junior engineer who will absolutely help you ship fast, but won't notice the externalities. The right question is: *what would I put in place if I wasn't scared of what this person could do?*
-
-Practical mitigations she's found useful:
-- Encrypt secrets at an additional layer so even database access doesn't expose them
-- Read-only MCP server hints (acknowledged to be hints only, not enforces)
-- Restrict which tools are mounted to agents that don't need them
-
-## Paved Roads in `CLAUDE.md`
-
-Rather than hoping people discover security best practices organically, Lorikeet encodes them as paved roads in their agents config. Examples:
-
-- If you want to host customer data, here's the approved template — and here's why you need an engineer involved the first deploy.
-- Row-level security on the database is on by default; don't turn it off just because it makes development faster.
-- When shipping analytics data to a third party, pause and confirm it's intentional.
-
-The agent has actually caught violations in practice — flagging extra analytics data being sent to a vendor during a demo build. The key insight: the agent will try to help you solve your problem as fast as possible. It's your job to encode the constraints that should travel with that help.
-
-## Skills: Superpowers and the Emerging Ecosystem
-
-The [Superpowers](https://github.com/nicholasgasior/superpowers) Claude Code plugin is Lorikeet's most widely used external skill. Its core loop: turn a vague task into questions, draft a design doc, break that into an implementation plan, then launch sub-agents for each stage in parallel. Karla's addition: after a long-running task completes, she opens a fresh chat in the same worktree and asks it to compare the design doc against what was actually built, then fix any gaps.
-
-For security audits, the flow is more manual: audit, write findings to a Notion doc, validate each finding with a proof-of-concept in a new context, create Linear tasks for confirmed vulnerabilities, then fix in parallel sub-agents.
-
-Karla's observation on skills authorship: LLMs are better at writing skills than humans are, because humans have almost no practice and the models have at least some training data. Her process — describe what you want, have the model write it, edit in partnership.
-
-## How Much Code Are You Writing?
-
-Karla joined a startup specifically to write more code. She's writing more code than ever — she just isn't typing it. What she does instead: manages a parallel team of agents doing implementation, reviews more code than she writes, and monitors deployments more carefully than before.
-
-The telling moment: a candidate's Conductor session broke mid-interview, forcing them to write code by hand. The reaction in the room: *you wrote code — like, real bespoke code.* Six months earlier nobody would have called it bespoke. Now it's artisanal.
 
 ## Links
 
 - **Karla Burnett** — [x.com/tetrakazi](https://x.com/tetrakazi)
 - **Lorikeet** — [lorikeetcx.ai](https://www.lorikeetcx.ai/)
 - **Conductor** — [conductor.build](https://conductor.build)
-- **Superpowers** — Claude Code skills plugin
+- **Superpowers** — [Claude Code skills plugin](https://github.com/obra/superpowers)
 
 ## Transcript
 
@@ -96,10 +35,10 @@ DNR (00:06.862)
 Hey everybody.
 
 Alex (00:08.492)
-And we have another guest here, Carla. Carla, would you like to introduce yourself?
+And we have another guest here, Karla. Karla, would you like to introduce yourself?
 
 Karla (00:14.112)
-Hey, yeah, my name's Carla. I live in Sydney. I have young kids. I work at a company called Laura King's, which does customer service automation. So when you write into a company, the automatic responses that you might get back from an AI, but trying to make them actually useful rather than just summaries of what you could already find on the website. Yeah.
+Hey, yeah, my name's Karla. I live in Sydney. I have young kids. I work at a company called Laura King's, which does customer service automation. So when you write into a company, the automatic responses that you might get back from an AI, but trying to make them actually useful rather than just summaries of what you could already find on the website. Yeah.
 
 Alex (00:35.954)
 Awesome. So one of the questions we love to just start off with is, you know, thinking back, like, do you remember any early experiences you were having with LLMs or AIs that really sort of like opened your eyes to the possibilities?
@@ -457,7 +396,7 @@ It is interesting that there's, it's basically, yeah, it's it's codified tribal 
 
 an incentive and a mechanism by which not only will people write them down, but like there's sort of value in aligning on a few that everyone kind of agrees are good. So it's interesting to see that play out. One of the skills that I have found interesting is Vercell has a skill repo. It's skills.sh or something like that, a website, but it comes with a find skills skill.
 
-Carla is terrified. It's a security nightmare, but, it's, it's interesting from the perspective of like, it does allow you to find things like this. Like there is a UXR skill in there, right? There is a whole bunch of web design skills in there and stuff like that. and so from sort of just like the perspective of being able to quickly pull these things off the shelf shelf and play with them a little bit, I've used sort of like.
+Karla is terrified. It's a security nightmare, but, it's, it's interesting from the perspective of like, it does allow you to find things like this. Like there is a UXR skill in there, right? There is a whole bunch of web design skills in there and stuff like that. and so from sort of just like the perspective of being able to quickly pull these things off the shelf shelf and play with them a little bit, I've used sort of like.
 
 copywriting skills from there and it allows me to be like a passable copywriter for, you know, our marketing pages or whatever. So those are kind of interesting developments.
 
@@ -498,7 +437,7 @@ DNR (47:44.545)
 person showing off writing writing assembly line by line in their interview
 
 Alex (47:59.356)
-Well, thank you so much Carla for joining us. It was great meeting you and getting to learn from your experience.
+Well, thank you so much Karla for joining us. It was great meeting you and getting to learn from your experience.
 
 Karla (48:06.264)
 Yeah, it was great chatting. Thanks a bunch.
